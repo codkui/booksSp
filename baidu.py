@@ -130,6 +130,6 @@ if __name__=="__main__":
     print("111111")
     baid=baidu()
     baid.search("天涯明月刀")
-    _thread.start_new_thread( baid.actBaidu,())
+    # _thread.start_new_thread( baid.actBaidu,())
     baid.actLink()
 
